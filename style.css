@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  color: #243247;
+  margin: 0;
+  padding: 30px 16px;
+}
+
+#Container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+#TheImage {
+  height: 300px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+#StoryText {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 24px auto;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 6px;
+  border: none;
+  border-radius: 8px;
+  background: #3867d6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2449a5;
+}
+
+.hidden {
+  display: none;
+}
